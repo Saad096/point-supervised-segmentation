@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlflow_tracking/
+
+# Model checkpoints
+*.pth
+experiments/
+
+# Data (large binary files)
+data/raw/
+archive/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
