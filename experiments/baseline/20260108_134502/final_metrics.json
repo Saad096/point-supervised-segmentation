@@ -1,0 +1,6 @@
+{
+  "best_val_iou": 0.41447200042721555,
+  "best_epoch": 14,
+  "final_train_loss": 0.27984214808259694,
+  "final_val_loss": 1.1604664067427317
+}

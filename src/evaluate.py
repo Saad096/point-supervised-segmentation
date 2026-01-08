@@ -316,7 +316,7 @@ def evaluate_checkpoint(
     print(f"\nLoading checkpoint from {checkpoint_path}")
     
     # Load checkpoint
-    checkpoint = torch.load(checkpoint_path, map_location=device)
+    checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     config = checkpoint['config']
     
     # Create output directory

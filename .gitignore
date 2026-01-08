@@ -30,8 +30,7 @@ mlflow_tracking/
 
 # Model checkpoints
 *.pth
-experiments/
-
+experiments/baseline/20260108_143005/best_model.pth
 # Data (large binary files)
 data/raw/
 archive/

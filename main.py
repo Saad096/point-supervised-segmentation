@@ -208,7 +208,7 @@ def evaluate_model(checkpoint_path: str, data_dir: str, device: str):
     print(f"{'='*80}")
 
     # Load checkpoint
-    checkpoint = torch.load(checkpoint_path, map_location=device)
+    checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     config = checkpoint['config']
 
     # Create output directory
