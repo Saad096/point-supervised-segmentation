@@ -260,6 +260,16 @@ python -c "import torch; print(torch.cuda.is_available())"
 
 ---
 
+## Performance Metrics and training :
+
+### Confusion metrics:
+![baseline_confusion_matrix](images/metrics/baseline_confusion_matrix.png)  
+### training curve:
+![baseline_training_curves](images/metrics/baseline_training_curves.png)  
+### class metrics:
+![class_metrics](experiments/baseline/20260108_134502/evaluation/class_metrics.png)  
+
+
 ## Sample Inference Results
 
 After running inference, results are saved as PNG files in the current directory:
